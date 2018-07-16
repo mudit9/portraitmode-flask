@@ -35,7 +35,7 @@ Portrait Mode Effect is used from the command line:
 python app.py
 ```
 
-Open  http://127.0.0.1:5000/ in the browser
+Then open  http://127.0.0.1:5000/ in the browser
 
 ## Screenshots
 
