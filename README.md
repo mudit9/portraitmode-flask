@@ -41,3 +41,21 @@ Open  http://127.0.0.1:5000/ in the browser
 
 <img src="samples/image1.png"/>
 <img src="samples/image2.png"/>
+
+
+## To Do
+- [ ] Develop API.
+- [ ] Develop website.
+
+## Developers
+This project has been developed by:
+- [Mudit Saxena](https://github.com/mudit9)
+- [Mayank Saxena](https://github.com/mayank26saxena)
+
+## License
+MIT License - see the [LICENSE](https://github.com/mayank26saxena/portrait-mode/blob/master/LICENSE) file for details.
+
+## Credits
+1) [https://ai.googleblog.com/2018/03/semantic-image-segmentation-with.html](https://ai.googleblog.com/2018/03/semantic-image-segmentation-with.html)
+2) [https://github.com/tensorflow/models/tree/master/research/deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab)
+3) [https://github.com/minimaxir/person-blocker](https://github.com/minimaxir/person-blocker)
