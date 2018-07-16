@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Portrait Image</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/static/js/view_image.js" > </script>
+    <script> var file = '{{ data }}';</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="p.png" />
+    <title>Portrait Mode Demo</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+<body>
+  <!--  <p> <img src="{{url_for('static',filename=user_image)}}" width=500 height=500 ></p>
+  -->
+  <nav class="navbar navbar-dark bg-dark">
+   <div class="container">
+        <a class="navbar-brand" href="https://portraitmode.herokuapp.com">Portrait Mode</a>
+        <button class="btn btn-outline-secondary my-2 my-sm-01" style = 'color : white' id = "btn - help" onclick = "window.open('/static/help.html')" type="submit">About</button>
+
+       <!-- <button class="btn btn-outline-secondary my-2 my-sm-0" id = "btn - help" type="submit">About</button>
+       -->
+    </div>
+</nav>
+  <style>
+     .dwnld_text
+     {
+       font-family:    Arial, Helvetica, sans-serif;
+       font-size:      1px;
+       font-weight:    italic;
+       margin: 0 auto;
+       margin-left: 780px;
+     }
+   </style>
+   <br> <br> <br>
+
+   <div id = "block">
+  <!-- <img src = "download.png" style = "max-width: 10%; height: 10%">  -->
+   <img id = "img" src = "static/output/handtinyblack.gif" style="display: block;margin-left: auto; margin-right: auto; max-height: 500px;">
+   <br><br>
+    <a id = "download" download="focussed.jpg" href="" title="Image">
+      <br> <br> <br>
+     <div id = "name" class = dwnld_text > <h1> Download Image  </h1> </div>
+    </a>
+</div>
+</body>
+</html>
