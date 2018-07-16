@@ -1,7 +1,7 @@
 # Portrait Mode - Flask App
 This project implements the portrait mode effect on images using Neural Networks.
 
-You can find the demo [here](https://portraitmode.herokuapp.com/)
+You can find the heroku demo [here](https://portraitmode.herokuapp.com/)
 
 The heroku 30 second request limit sometimes causes the request to timeout which is why it's better to use it on the local flask server.
 
@@ -37,6 +37,7 @@ python app.py
 
 Open  http://127.0.0.1:5000/ in the browser
 
+## Screenshots
 
-
-
+<img src="samples/image1.png"/>
+<img src="samples/image2.png"/>
