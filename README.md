@@ -1,2 +1,1 @@
-# portrait-mode
-Implementing portrait mode. 
+# portrait-mode-flask
